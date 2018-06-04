@@ -7,7 +7,6 @@ This pattern aims to convert the unstructured chat transcripts to a structured d
 The input to the pattern is a document containing various chat transcripts. These transcripts are split by cases, so that each case forms one row of the dataframe along with the required recommendation. Further within these cases the most important feature-value pairs mapped with the other cases are collected to obtain a final dataframe containing the value of each feature and the recommendation for each case.
 
 
-
 ## Included components
 
 * [IBM Watson Studio](https://console.bluemix.net/catalog/services/watson-studio): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
