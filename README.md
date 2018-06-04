@@ -1,6 +1,6 @@
 # Chat-Transcripts
 
-With the advert increase in cognitive technology, chatbots have gained popularity to interact with a user to perform collect information to perform any domain specific task. The information as a result of these chats can be used to further train the chatbot for future instances. 
+With the advert increase in cognitive technology, chatbots have gained popularity to interact with a user to perform any domain specific task. The information obtained as a result of these chats contain policies, important feature-value pairs and such to be able to take an important business decision. This information thus, if converted to a structured uniform format, such as a dataframe, can be used as training data for any further cognition to be added to the chatbot.
 
 This pattern aims to convert the unstructured chat transcripts to a structured dataframe, by extracting the most important feature-value pairs that may affect a final decision.
 
