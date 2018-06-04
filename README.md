@@ -114,7 +114,7 @@ Select the cell below `2.2 Add your service credentials for Object Storage` sect
 * Click Insert StreamingBody object.
 * Make sure the credentials are saved as streaming_body_1. If not edit and replace the numbers to 1. There should be four such occurrences in the cell.
 
-![](doc/source/images/add_file.png)
+![](doc/source/images/service_credentials_chat.png)
 
 * In the next cell, Delete the contents of the cell
 * Use Find and Add Data (look for the 10/01 icon) and its Files tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one below 2.2 Add...
@@ -122,7 +122,7 @@ Select the cell below `2.2 Add your service credentials for Object Storage` sect
 * Click Insert Service Credentials.
 * Make sure the credentials are saved as credentials_1. If not edit and replace the numbers to 1. There should be four such occurrences in the cell.
 
-![](doc/source/images/add_file.png)
+![](doc/source/images/service_credentials_config.png)
 
 ### 2.5 Run the notebook
 
