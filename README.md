@@ -6,7 +6,7 @@ This pattern aims to convert the unstructured chat transcripts to a structured d
 
 This pattern solves the problem using the following strategy:
 * Extract chat transcripts and split by the number of use cases, so that each case forms one row of the dataframe along with the required recommendation
-* Each case will go through two strategies to extract the important featur-value pairs
+* Each case will go through two strategies to extract the important feature-value pairs
 * The most important feature-value pairs extracted are further mapped with the other cases to obtain a uniform structure
 * Finally, a dataframe containing the value of each feature and the recommendation for each case is obtained
 
