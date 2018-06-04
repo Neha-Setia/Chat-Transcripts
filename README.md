@@ -1,10 +1,14 @@
 # Chat-Transcripts
 
-With the advert increase in cognitive technology, chatbots have gained popularity to interact with a user to perform any domain specific task. The information obtained as a result of these chats contain policies, important feature-value pairs and such to be able to take an important business decision. This information thus, if converted to a structured uniform format, such as a dataframe, can be used as training data for any further cognition to be added to the chatbot.
+With the advert increase in cognitive technology, chatbots have gained popularity to interact with a user to perform any domain specific task. The information obtained as a result of these chats contain policies, important feature-value pairs and other important features affecting the process of making a business decision. Thus, if this information is converted to a structured format, such as a dataframe, it can be used as training data for improving the decision making process of the chatbot.
 
 This pattern aims to convert the unstructured chat transcripts to a structured dataframe, by extracting the most important feature-value pairs that may affect a final decision.
 
-The input to the pattern is a document containing various chat transcripts. These transcripts are split by cases, so that each case forms one row of the dataframe along with the required recommendation. Further within these cases the most important feature-value pairs mapped with the other cases are collected to obtain a final dataframe containing the value of each feature and the recommendation for each case.
+This pattern will demonstrate:
+* Extract chat transcripts and split by the number of use cases, so that each case forms one row of the dataframe along with the required recommendation
+* Each case will go through two strategies to extract the important featur-value pairs
+* The most important feature-value pairs extracted are further mapped with the other cases to obtain a uniform structure
+* Finally a dataframe containing the value of each feature and the recommendation for each case is obtained
 
 
 ## Included components
