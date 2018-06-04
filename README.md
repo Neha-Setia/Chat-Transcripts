@@ -85,7 +85,8 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
 * From the `My Projects > Default` page, Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab.
-* Click `browse` and navigate to [Archive.zip](https://github.com/IBM/build-knowledge-base-with-domain-specific-documents/tree/master/data)
+* Click `browse` and navigate to [Archive.zip]()
+* Click `browse` and navigate to [config.txt]()
 
 ![](doc/source/images/add_file.png)
 
