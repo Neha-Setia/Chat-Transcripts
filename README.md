@@ -92,9 +92,21 @@ and its `Files` tab.
 
 ### 2.4 Update notebook with service credentials
 
-Add the Object Storage credentials to the notebook
+#### 2.4.1 Add Watson NLU credentials to notebook
 
-Select the cell below 2.2 Add your service credentials for Object Storage section in the notebook to update the credentials for Object Store.
+Get Watson NLU service credentials:
+
+    On your IBM Cloud Dashboard, click on Watson NLU service instance. On the left hand navigation bar click Service Credentials
+    If you see View Credentials under Service Credentials then click on the down arrow mark beside View Credentials. Make of note of the credentials.
+    If you do not see View Credentials, then click New Credential to create new credentials and make a note of new credentials.
+
+Select the cell below `2.1 Add your service credentials from IBM Cloud` for the Watson services section in the notebook to update username and password for Watson NLU.
+
+![](doc/source/images/add_file.png)
+
+#### 2.4.2 Add the Object Storage credentials to the notebook
+
+Select the cell below `2.2 Add your service credentials for Object Storage` section in the notebook to update the credentials for Object Store.
 
 * Delete the contents of the cell
 * Use Find and Add Data (look for the 10/01 icon) and its Files tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one below 2.2 Add...
@@ -102,12 +114,15 @@ Select the cell below 2.2 Add your service credentials for Object Storage sectio
 * Click Insert StreamingBody object.
 * Make sure the credentials are saved as streaming_body_1. If not edit and replace the numbers to 1. There should be four such occurrences in the cell.
 
+![](doc/source/images/add_file.png)
+
 * In the next cell, Delete the contents of the cell
 * Use Find and Add Data (look for the 10/01 icon) and its Files tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one below 2.2 Add...
 * Under Files, click the dropdown for Insert to code for `config.txt`
 * Click Insert Service Credentials.
 * Make sure the credentials are saved as credentials_1. If not edit and replace the numbers to 1. There should be four such occurrences in the cell.
 
+![](doc/source/images/add_file.png)
 
 ### 2.5 Run the notebook
 
