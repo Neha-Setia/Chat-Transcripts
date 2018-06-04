@@ -96,13 +96,13 @@ and its `Files` tab.
 
 Get Watson NLU service credentials:
 
-    On your IBM Cloud Dashboard, click on Watson NLU service instance. On the left hand navigation bar click Service Credentials
-    If you see View Credentials under Service Credentials then click on the down arrow mark beside View Credentials. Make of note of the credentials.
-    If you do not see View Credentials, then click New Credential to create new credentials and make a note of new credentials.
+* On your IBM Cloud Dashboard, click on Watson NLU service instance. On the left hand navigation bar click Service Credentials
+* If you see View Credentials under Service Credentials then click on the down arrow mark beside View Credentials. Make of note of the credentials.
+* If you do not see View Credentials, then click New Credential to create new credentials and make a note of new credentials.
 
 Select the cell below `2.1 Add your service credentials from IBM Cloud` for the Watson services section in the notebook to update username and password for Watson NLU.
 
-![](doc/source/images/add_file.png)
+![](doc/source/images/watson_nlu_credentials.png)
 
 #### 2.4.2 Add the Object Storage credentials to the notebook
 
