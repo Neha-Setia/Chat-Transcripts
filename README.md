@@ -39,10 +39,10 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
 1. [Create a new Watson Studio project](#21-create-a-new-watson-studio-project)
 2. [Create the notebook](#22-create-the-notebook)
-3. []
-3. [Upload data](#23-upload-data)
-4. [Run the notebook](#24-run-the-notebook)
-5. [Save and Share](#25-save-and-share)
+3. [Update notebook with service credentials](##23-update-notebook-with-service-credentials)
+4. [Upload data](#24-upload-data)
+5. [Run the notebook](#25-run-the-notebook)
+6. [Save and Share](#26-save-and-share)
 
 
 
@@ -79,7 +79,19 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
 * Click the `Create` button.
 
-### 2.3 Upload data
+### 2.6 Update notebook with service credentials
+
+Add the Object Storage credentials to the notebook
+
+Select the cell below 2.1 Add your service credentials for Object Storage section in the notebook to update the credentials for Object Store.
+
+* Delete the contents of the cell
+* Use Find and Add Data (look for the 10/01 icon) and its Files tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one below 2.2 Add...
+* Under Files, click the dropdown for Insert to code for Data.zip
+* Click Insert StreamingBody object.
+* Make sure the credentials are saved as streaming_body_1. If not edit and replace the numbers to 1. There should be four such occurrences in the cell.
+
+### 2.4 Upload data
 
 #### Upload the data and configuration to the notebook
 
@@ -89,7 +101,7 @@ and its `Files` tab.
 
 ![](doc/source/images/add_file.png)
 
-### 2.4 Run the notebook
+### 2.5 Run the notebook
 
 When a notebook is executed, what is actually happening is that each code cell in
 the notebook is executed, in order, from top to bottom.
@@ -116,7 +128,7 @@ There are several ways to execute the code cells in your notebook:
     time, or repeatedly at your specified interval.
 
 
-### 2.5 Save and Share
+### 2.6 Save and Share
 
 #### How to save your work:
 
