@@ -39,8 +39,8 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
 1. [Create a new Watson Studio project](#21-create-a-new-watson-studio-project)
 2. [Create the notebook](#22-create-the-notebook)
-3. [Update notebook with service credentials](##23-update-notebook-with-service-credentials)
-4. [Upload data](#24-upload-data)
+3. [Upload data](#23-upload-data)
+4. [Update notebook with service credentials](##24-update-notebook-with-service-credentials)
 5. [Run the notebook](#25-run-the-notebook)
 6. [Save and Share](#26-save-and-share)
 
@@ -79,7 +79,17 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
 * Click the `Create` button.
 
-### 2.6 Update notebook with service credentials
+### 2.3 Upload data
+
+#### Upload the data and configuration to the notebook
+
+* From the `My Projects > Default` page, Use `Find and Add Data` (look for the `10/01` icon)
+and its `Files` tab.
+* Click `browse` and navigate to [Archive.zip](https://github.com/IBM/build-knowledge-base-with-domain-specific-documents/tree/master/data)
+
+![](doc/source/images/add_file.png)
+
+### 2.4 Update notebook with service credentials
 
 Add the Object Storage credentials to the notebook
 
@@ -91,15 +101,6 @@ Select the cell below 2.1 Add your service credentials for Object Storage sectio
 * Click Insert StreamingBody object.
 * Make sure the credentials are saved as streaming_body_1. If not edit and replace the numbers to 1. There should be four such occurrences in the cell.
 
-### 2.4 Upload data
-
-#### Upload the data and configuration to the notebook
-
-* From the `My Projects > Default` page, Use `Find and Add Data` (look for the `10/01` icon)
-and its `Files` tab.
-* Click `browse` and navigate to [Archive.zip](https://github.com/IBM/build-knowledge-base-with-domain-specific-documents/tree/master/data)
-
-![](doc/source/images/add_file.png)
 
 ### 2.5 Run the notebook
 
