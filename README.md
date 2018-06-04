@@ -39,8 +39,9 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
 1. [Create a new Watson Studio project](#21-create-a-new-watson-studio-project)
 2. [Create the notebook](#22-create-the-notebook)
-3. [Run the notebook](#23-run-the-notebook)
-4. [Upload data](#24-upload-data)
+3. []
+3. [Upload data](#23-upload-data)
+4. [Run the notebook](#24-run-the-notebook)
 5. [Save and Share](#25-save-and-share)
 
 
@@ -78,7 +79,17 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
 * Click the `Create` button.
 
-### 2.3 Run the notebook
+### 2.3 Upload data
+
+#### Upload the data and configuration to the notebook
+
+* From the `My Projects > Default` page, Use `Find and Add Data` (look for the `10/01` icon)
+and its `Files` tab.
+* Click `browse` and navigate to [Archive.zip](https://github.com/IBM/build-knowledge-base-with-domain-specific-documents/tree/master/data)
+
+![](doc/source/images/add_file.png)
+
+### 2.4 Run the notebook
 
 When a notebook is executed, what is actually happening is that each code cell in
 the notebook is executed, in order, from top to bottom.
@@ -104,16 +115,6 @@ There are several ways to execute the code cells in your notebook:
     panel. Here you can schedule your notebook to be executed once at some future
     time, or repeatedly at your specified interval.
 
-
-### 2.4 Upload data
-
-#### Upload the data and configuration to the notebook
-
-* From the `My Projects > Default` page, Use `Find and Add Data` (look for the `10/01` icon)
-and its `Files` tab.
-* Click `browse` and navigate to [Archive.zip](https://github.com/IBM/build-knowledge-base-with-domain-specific-documents/tree/master/data)
-
-![](doc/source/images/add_file.png)
 
 ### 2.5 Save and Share
 
