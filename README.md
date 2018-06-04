@@ -4,7 +4,7 @@ With the advert increase in cognitive technology, chatbots have gained popularit
 
 This pattern aims to convert the unstructured chat transcripts to a structured dataframe, by extracting the most important feature-value pairs that may affect a final decision.
 
-This pattern will demonstrate:
+This pattern solves the problem with the following strategy:
 * Extract chat transcripts and split by the number of use cases, so that each case forms one row of the dataframe along with the required recommendation
 * Each case will go through two strategies to extract the important featur-value pairs
 * The most important feature-value pairs extracted are further mapped with the other cases to obtain a uniform structure
