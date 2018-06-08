@@ -190,6 +190,8 @@ options to specify exactly what you want shared from your notebook:
 
 ## 3. Analyze the Results
 
+After running the notebook, we receive a dataframe as an output with the final column being the recommendation. In section `5.4 Collect Obtained Features and Form a Dataframe` 
 
 
+![](doc/source/images/analyze_results.jpg)
 
