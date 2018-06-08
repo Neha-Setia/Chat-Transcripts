@@ -190,7 +190,24 @@ options to specify exactly what you want shared from your notebook:
 
 ## 3. Analyze the Results
 
-After running the notebook, we receive a dataframe as an output with the final column being the recommendation. In section `5.4 Collect Obtained Features and Form a Dataframe` 
+The chat transcripts given as input is split by the number of use cases, so that each case forms one row of the dataframe along with the required recommendation. Each of these case extract the important feature-value pairs by the following techniques-
+
+### First Strategy
+Suppose we have a chat conversation such as,
+
+![](doc/source/images/First_Strategy.jpg)
+
+The algorithm will take the results of Watson NLU and use NLP Chunking techniques to extract the required feature-value pairs.
+
+### Second Strategy
+For a chat conversation such as,
+
+![](doc/source/images/Second_Strategy.jpg)
+
+* The algorithm will pass the first line to NLU and extract the important feature by taking into consideration Keywords, Entities and Semantic Roles.
+* The second line is treated as the value for the feature extracted through the above technique.
+
+Each case will go through two strategies to extract the important feature-value pairs.  After running the notebook, we receive a dataframe as an output with the final column being the recommendation. In section `5.4 Collect Obtained Features and Form a Dataframe` 
 
 ![](doc/source/images/analyze_results.jpg)
 
