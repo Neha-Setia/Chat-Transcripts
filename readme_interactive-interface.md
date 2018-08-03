@@ -14,13 +14,15 @@ It's an end-to-end solution as it will :
 
 3.  Prepare Machine learning Model from the data extracted in the step 2 and automate the process of the decision support  using the Code Pattern [`Automate the Decision-Making process using Machine learning with Minimal Manual Intervention`](https://github.com/IBM/automate-business-decisions-with-machine-learning).
 
-4. Interactive Interface will ask you the question then on the basis of your answer, it passes your result into the decision tree and get you the most approriate recommendation. It will analyse further whether to ask next question or the current information received from the user is good enough to take the decision. If yes, which questions to ask. The section `Exposing the Notebook as Rest API` of the readme.md explains how the notebook from the Step 3 can be exposed as Rest API and a Flask application can be built on top of it.
+4. Interactive Interface will ask you the question then on the basis of your answer, it passes your result into the decision tree and get you the most approriate recommendation. It will analyse further whether to ask next question or the current information received from the user is good enough to take the decision. If yes, which questions to ask. The section `Exposing the Jupyter Notebook Code as Rest API` of the readme.md explains how the python code in the notebook from the Step 3 can be exposed as Rest API  and a python Flask application can be built on top of it. Finally, 
+
+5. Deploy the application on IBM Cloud.
 
  
 # Architecture Diagram.
 
 
-## Exposing the Notebook as Rest API
+## Exposing the Notebook Code as Rest API
 
 
 
