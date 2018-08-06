@@ -1,4 +1,4 @@
-## End to End Interactive Interface powered by Machine learning using Rest APIs by mining Unstructured Content.
+##  Interactive Interface powered by Machine learning using Rest APIs by mining Unstructured Content.
 
 With the advent of AI, Automation of Services has picked up much faster pace than ever before. And hence, technology has also changed  the way customer service solutions are designed. One industry which has gained momentum due to this disruption of Artificial Intelligence is - Customer service industry. Artificial Intelligence has transformed the customer interactions considerably. Machine Learning and Natural Language Processing(NLP) together are the technology behind these interactions. Natural language processing supports your daily interactions with AI software using its ability to process and interpret spoken/written messages. 
 
