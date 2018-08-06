@@ -24,17 +24,20 @@ It's an end-to-end solution as it will :
 
 
 ## Steps
-1. Automate the process of Extracting features.
-2. Automate the Decision-Making process using Machine learning.
-3. Exposing the Notebook Code as Rest API.
-4. Deploy The Flask Application on IBM Cloud.
+Follow these steps to setup and run this code pattern. The steps are
+described in detail below.
 
-### 1. Automate the process of Extracting features.
+1. [Automate the process of Extracting features.](#1-sign-up-for-watson-studio)
+1. [Automate the Decision-Making process using Machine learning.](#1-sign-up-for-watson-studio)
+1. [Exposing the Notebook Code as Rest API.](#1-sign-up-for-watson-studio)
+1. [Deploy The Flask Application on IBM Cloud.](#1-sign-up-for-watson-studio)
 
-### 2. Automate the Decision-Making process using Machine learning.
+## 1.Automate the process of Extracting features.
 
-### 3. Exposing the Notebook Code as Rest API.
+## 2.Automate the Decision-Making process using Machine learning.
+
+## 3.Exposing the Notebook Code as Rest API.
 
 
 
-### 4. Deploy The Flask Application on IBM Cloud.
+## 4.Deploy The Flask Application on IBM Cloud.
