@@ -27,17 +27,17 @@ It's an end-to-end solution as it will :
 Follow these steps to setup and run this code pattern. The steps are
 described in detail below.
 
-1. [Automate the process of Extracting features.](#1-sign-up-for-watson-studio)
-1. [Automate the Decision-Making process using Machine learning.](#1-sign-up-for-watson-studio)
-1. [Exposing the Notebook Code as Rest API.](#1-sign-up-for-watson-studio)
-1. [Deploy The Flask Application on IBM Cloud.](#1-sign-up-for-watson-studio)
+1. [Automate the process of Extracting features.](#1-automate-the-process-of-extracting-features)
+1. [Automate the Decision-Making process using Machine learning.](#2-automate-the-decision-making-process-using-machine-learning)
+1. [Exposing the Notebook Code as Rest API.](#3-exposing-the-notebook-code-as-rest-api)
+1. [Deploy The Flask Application on IBM Cloud.](#4-deploy-the-flask-application-on-ibm-cloud)
 
-## 1.Automate the process of Extracting features.
+### 1. Automate the process of Extracting features.
 
-## 2.Automate the Decision-Making process using Machine learning.
+### 2. Automate the Decision-Making process using Machine learning.
 
-## 3.Exposing the Notebook Code as Rest API.
+### 3. Exposing the Notebook Code as Rest API.
 
 
 
-## 4.Deploy The Flask Application on IBM Cloud.
+### 4. Deploy The Flask Application on IBM Cloud.
