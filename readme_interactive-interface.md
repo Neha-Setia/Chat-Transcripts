@@ -20,10 +20,21 @@ It's an end-to-end solution as it will :
 
  
 # Architecture Diagram.
+![](/doc/source/images)
 
 
-## Exposing the Notebook Code as Rest API
+## Steps
+1. Automate the process of Extracting features.
+2. Automate the Decision-Making process using Machine learning.
+3. Exposing the Notebook Code as Rest API.
+4. Deploy The Flask Application on IBM Cloud.
+
+### 1. Automate the process of Extracting features.
+
+### 2. Automate the Decision-Making process using Machine learning.
+
+### 3. Exposing the Notebook Code as Rest API.
 
 
 
-
+### 4. Deploy The Flask Application on IBM Cloud.
