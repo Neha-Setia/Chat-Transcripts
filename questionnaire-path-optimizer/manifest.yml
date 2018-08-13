@@ -1,0 +1,5 @@
+---
+applications:
+ - name: IquisitiveBPM-QuestionRetriever
+   random-route: false
+   memory: 512M

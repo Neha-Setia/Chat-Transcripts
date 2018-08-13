@@ -1,0 +1,15 @@
+scikit-learn
+Flask
+cf-deployment-tracker
+ibm-cos-sdk
+scikit-learn
+graphviz
+pydot
+numpy
+pandas
+scipy
+flask-cors
+IPython
+botocore
+requests
+sklearn
