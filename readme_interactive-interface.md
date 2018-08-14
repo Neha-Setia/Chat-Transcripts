@@ -43,7 +43,7 @@ To stitch the above two code patterns we will follow the below steps
 #### 3.1 Deploy Python application
 [Python application](https://github.com/Neha-Setia/Chat-Transcripts/tree/master/questionnaire-path-optimizer) is created using the notebook used in code pattern [`Automate the Decision-Making process using Machine learning.`](#2-automate-the-decision-making-process-using-machine-learning). Let's deploy this code
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://github.com/Neha-Setia/Chat-Transcripts/tree/master/questionnaire-path-optimizer)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/Neha-Setia/Chat-Transcripts/tree/master/questionnaire-path-optimizer)
 
 
 ### 4. Deploy The Flask Application on IBM Cloud.
