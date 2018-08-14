@@ -39,15 +39,23 @@ Follow the Code Pattern [`Automate the process of Extracting features`](https://
 The Above Code Pattern gave a structured CSV format of the Information about the domain `Tuberculosis` which can be understood by the Machine Learning. This Code Pattern showcase how to actually build a machine learning based Decision-Support system without actually defining the dialog, entities etc. using that CSV. To broaden the scope of the Applications of this solution the Code Pattern picks up the Business Travel Request Data for building a Decision-Supoort System. Follow the Code Pattern [`Automate the Decision-Making process using Machine learning.`](#2-automate-the-decision-making-process-using-machine-learning) to understand in detail.
 
 ### 3. Exposing the Notebook Code as Rest API.
-To stitch the above two code patterns we will follow the below steps
-#### 3.1 Deploy Python application
-[Python application](https://github.com/Neha-Setia/Chat-Transcripts/tree/master/questionnaire-path-optimizer) is created using the notebook used in code pattern [`Automate the Decision-Making process using Machine learning.`](#2-automate-the-decision-making-process-using-machine-learning). Let's deploy this code
-
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/Neha-Setia/Chat-Transcripts/tree/master/questionnaire-path-optimizer)
+To stitch the above two code patterns we will have to host the notebook in code pattern [`Automate the Decision-Making process using Machine learning.`](#2-automate-the-decision-making-process-using-machine-learning) as a rest API. To address this, a python flask application is created within this git repo https://github.com/Neha-Setia/Chat-Transcripts/tree/master/questionnaire-path-optimizer
 
 
 ### 4. Deploy The Flask Application on IBM Cloud.
+- If you have not deployed IBM Cloud CLI, then deploy it using the [instructions](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use)
+- Clone git repo by running the command `git clone https://github.com/Neha-Setia/Chat-Transcripts`
+- Ensure that you have logged into the org and space of IBM Cloud where you want to deploy python application. You can verify this using the command `ibmcloud target`
+- On the command prompt change the directory to the cloned git repo. Within that change directory to `questionnaire-path-optimizer`
+- Edit `manifest.yml` file and update `name` to a unique application name. Save the file.
+- On command prompt, run the command `ibmcloud cf push` to deploy the application to IBM Cloud
+- The python flask application should get deployed successfully and should have started running. So we have rest interfaces for the features in the notebook.
 
+
+# 5. Deploy client application
+
+
+# 6. Running the application
 
 # Learn more
 
