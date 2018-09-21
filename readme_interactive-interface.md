@@ -20,7 +20,8 @@ It's an end-to-end solution as it will :
 
 
 # Architecture Diagram.
-![](/doc/source/images)
+
+ ![](doc/source/images/architecture_interface.png)
 
 
 ## Steps
